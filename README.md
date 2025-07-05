@@ -4,7 +4,7 @@
 
 
 
-## II. Portfolio 2 : CORONA_VIRUS(2020_2021)
+## II. Portfolio 2 : COVID-19 Global Data Analysis & Dashboard (2020–2021)
 Hello, I have a Portfolio about CoronaVirus data from 2020-2021. In this Portfolio, I have completed a full project including data cleaning, EDA data exploration in SQL, and data visualization in Tableau.
 
 Dataset Link: https://ourworldindata.org/explorers/covid?tab=table&time=2020-03-01..latest&country=IND~USA~GBR~CAN~DEU~FRA&pickerSort=asc&pickerMetric=location&hideControls=false&Metric=Excess+mortality+%28estimates%29&Interval=7-day+rolling+average&Relative+to+population=true
