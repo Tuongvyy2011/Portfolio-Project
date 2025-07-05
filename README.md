@@ -40,9 +40,13 @@ Hoặc tôi đã truy cập dữ liệu của Our World in Data tại github: ht
 Sau khi làm sạch và phân tích quy trình EDA, tôi đã làm 4 biểu đồ trực quan hoá khác nhau trong Tableau về:
 
 Biểu đồ 1 - Text Table : Bảng so sánh Tổng số trường hợp mắc bệnh, Tổng số ca tử vong và Tỷ lệ phần trăm số ca tử vong trên toàn thế giới
+
 Biểu đồ 2 - Bar chart : Biểu đồ cho biết châu lục nào có số ca tử vong ca nhất
+
 Biểu đồ 3 - Maps : Phần trăm dân số bị nhiễm bệnh trên mỗi quốc gia
+
 Biểu đồ 4 - Line: Dự đoán phần trăm số dân nhiễm bệnh tăng lên trên các quốc gia
+
 Biểu đồ 5 - Bar chart : Tổng số ca chết so với chỉ số HDI của các nhóm quốc gia
 
 <img width="1389" alt="Screenshot 2025-07-01 at 01 00 03" src="https://github.com/user-attachments/assets/7b211d3d-9e77-4b02-98ba-a166b696746b" />
