@@ -65,9 +65,17 @@ Final Tableau Dashboard:
 https://public.tableau.com/app/profile/vy.vu6590/viz/TableauVisualizationCoranaVirus2020-2021/Dashboard1
 
 ## III. Portfolio 3 : Data Cleaning Nashville_housing in SQL
+In this project, we used the "Nashville Housing Data for Data Cleaning" dataset to practice and apply data cleaning techniques using SQL, thereby improving data quality and reliability.
 
+The dataset used is "Nashville Housing Data for Data Cleaning" publicly shared by AlexTheAnalyst.
+- Access from GitHub: https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning%20(reuploaded).xlsx
+- Original source from Kaggle: https://www.kaggle.com/datasets/tmthyjames/nashville-housing-data
 
-
+After downloading the raw dataset, the next step is to apply SQL – using JOIN, CTE (Common Table Expressions), Window Functions and aggregate functions – to:
+- Handle missing values (null) appropriately
+- Detect and remove duplicate data
+- Split and standardize address components to support regional analysis
+- Create analysis-friendly data tables, connecting transaction information and real estate characteristics
 
 
 ## IV. Portfolio 4 : Correlation Movie Industry in Python
