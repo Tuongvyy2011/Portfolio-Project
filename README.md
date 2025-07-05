@@ -5,49 +5,46 @@
 
 
 ## II. Portfolio 2 : CORONA_VIRUS(2020_2021)
-Xin chào, tôi có một Portfolio về dữ liệu CoronaVirus từ năm 2020-2021, trong Portfolio này tôi đã thực hiện một project đầy đủ như làm sạch dữ liệu, khám phá dữ liệu EDA trên SQL và trực quan hoá dữ liệu này trên Tableau.
+Hello, I have a Portfolio about CoronaVirus data from 2020-2021. In this Portfolio, I have completed a full project including data cleaning, EDA data exploration in SQL, and data visualization in Tableau.
 
-Link Dataset: https://ourworldindata.org/explorers/covid?tab=table&time=2020-03-01..latest&country=IND~USA~GBR~CAN~DEU~FRA&pickerSort=asc&pickerMetric=location&hideControls=false&Metric=Excess+mortality+%28estimates%29&Interval=7-day+rolling+average&Relative+to+population=true
+Dataset Link: https://ourworldindata.org/explorers/covid?tab=table&time=2020-03-01..latest&country=IND~USA~GBR~CAN~DEU~FRA&pickerSort=asc&pickerMetric=location&hideControls=false&Metric=Excess+mortality+%28estimates%29&Interval=7-day+rolling+average&Relative+to+population=true
 
-Hoặc tôi đã truy cập dữ liệu của Our World in Data tại github: https://github.com/owid/covid-19-data/tree/master/public/data
+Or I accessed Our World in Data's data on github: https://github.com/owid/covid-19-data/tree/master/public/data
 
-### Làm sạch dữ liệu, khám phá dữ liệu EDA trên SQL
-Đầu tiên tôi đã chia dữ liệu thành 2 File csv khác nhau, gồm File CovidDeaths và Bảng CovidVaccinations. Sau đó, Tôi đã thực hiện các truy vấn trong MySQL theo:
-1. Quốc gia
-- Tỷ lệ tử vong/ số ca mắc bệnh
-- Tỷ lệ tử vong/ số ca mắc bệnh ở VN ( Khả năng tử vong nếu bạn mắc phải covid ở quốc gia của bạn )
-- Tỷ lệ phần trăm dân số mắc covid
-- Các quốc gia có tỷ lệ lây nhiễm cao nhất trên mỗi dân số
-- Các quốc gia có số ca tử vong cao nhất 
+### Data Cleaning and EDA Data Exploration in SQL
+First, I divided the data into 2 different CSV files, including CovidDeaths file and CovidVaccinations table. Then, I performed queries in MySQL according to:
 
-2. Châu lục
-- Các châu lục có số ca tử vong cao nhất 
+1. Countries
+- Death rate/infection cases
+- Death rate/infection cases in Vietnam (Likelihood of death if you contract covid in your country)
+- Percentage of population infected with covid
+- Countries with the highest infection rates per population
+- Countries with the highest death counts
 
-3.Toàn cầu: Không chia theo châu lục hay quốc gia nào
-- Tổng số ca mắc mới, tổng số ca tử vong mới và tỷ lệ tử vong trên toàn cầu theo ngày
+2. Continents
+- Continents with the highest death counts
 
-4.Số người tiêm chủng 
-- Tổng số người đã được tiêm chủng theo từng quốc gia
-- Tổng lăn của số người đã được tiêm chủng theo từng quốc gia
-- Tỷ lệ phần trăm dân số ở từng quốc gia đã được tiêm vaccin theo tổng lăn
+3. Global: Not divided by continent or country
+- Total new cases, total new deaths, and global death rate by day
 
-5.Các thành phần khác
-- Có sự khác biệt nào giữa các quốc gia có chỉ số phát triển con người cao và các quốc gia có chỉ số phát triển con người thấp không?
-- Mối quan hệ giữa tỷ lệ người được tiêm vắc-xin đầy đủ và tỷ lệ tử vong mới là gì?
+4. Vaccination numbers
+- Total number of people vaccinated by country
+- Rolling total of people vaccinated by country
+- Percentage of population in each country vaccinated by rolling total
+
+5. Other components
+- Are there any differences between countries with high Human Development Index and countries with low Human Development Index?
+- What is the relationship between the rate of fully vaccinated people and the new death rate?
   
 
-### Trực quan hoá dữ liệu bằng Tableau
-Sau khi làm sạch và phân tích quy trình EDA, tôi đã làm 4 biểu đồ trực quan hoá khác nhau trong Tableau về:
+### Data Visualization using Tableau
+After cleaning and analyzing the EDA process, I created 4 different visualization charts in Tableau about:
 
-Biểu đồ 1 - Text Table : Bảng so sánh Tổng số trường hợp mắc bệnh, Tổng số ca tử vong và Tỷ lệ phần trăm số ca tử vong trên toàn thế giới
-
-Biểu đồ 2 - Bar chart : Biểu đồ cho biết châu lục nào có số ca tử vong ca nhất
-
-Biểu đồ 3 - Maps : Phần trăm dân số bị nhiễm bệnh trên mỗi quốc gia
-
-Biểu đồ 4 - Line: Dự đoán phần trăm số dân nhiễm bệnh tăng lên trên các quốc gia
-
-Biểu đồ 5 - Bar chart : Tổng số ca chết so với chỉ số HDI của các nhóm quốc gia
+- Chart 1 - Text Table: Comparison table of Total cases, Total deaths, and Death percentage worldwide
+- Chart 2 - Bar chart: Chart showing which continent has the highest death count
+- Chart 3 - Maps: Percentage of population infected per country
+- Chart 4 - Line: Prediction of percentage increase in infected population across countries
+- Chart 5 - Bar chart: Total deaths compared to HDI index of country groups
 
 <img width="1389" alt="Screenshot 2025-07-01 at 01 00 03" src="https://github.com/user-attachments/assets/7b211d3d-9e77-4b02-98ba-a166b696746b" />
 
