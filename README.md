@@ -1,7 +1,20 @@
 ## I. Portfolio 1 : Automating Crypto Website API Pull Using Python 
+In this Portfolio, I pulled API from CoinMarketCap website to get the latest information about cryptocurrency prices, performed data cleaning, and conducted EDA data exploration using Python.
 
+CoinMarketCap website I used: https://coinmarketcap.com/
 
+### 1. Pulling API from CoinMarketCap website
+Then, I created a loop to get the latest 15 cryptocurrencies from CoinMarketCap, normalized the data, added a timestamp column, and then appended it to a CSV file and saved it to a specified file on the computer. This loop aims to automate periodic data collection from CoinMarketCap.
 
+### 2. Data Cleaning
+After pulling the API and saving to CSV, I used Pandas to reformat the float display format.
+
+### 3. EDA Data Exploration 
+- Used group by and aggregation functions to calculate the average percentage change in coin prices over recent time periods.
+- Used seaborn and Matplotlib to visualize charts and track price increases/decreases of coins over recent time periods.
+- Or track the price of a specific coin over time when pulling API from CoinMarketCap website.
+
+<img width="884" alt="Screenshot 2025-07-05 at 22 36 01" src="https://github.com/user-attachments/assets/c89eb897-20b8-4a8c-bfdc-8b6848a3a927" />
 
 
 ## II. Portfolio 2 : COVID-19 Global Data Analysis & Dashboard (2020–2021)
