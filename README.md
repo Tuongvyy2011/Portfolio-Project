@@ -79,3 +79,56 @@ After downloading the raw dataset, the next step is to apply SQL – using JOIN,
 
 
 ## IV. Portfolio 4 : Correlation Movie Industry in Python
+I used the Movie Revenue and Film Industry dataset (1986–2016) with the purpose of analyzing revenue and finding factors that influence movie success. This project is divided into 2 main parts, including the data cleaning process and finding correlations in the dataset.
+
+Data I used: https://www.kaggle.com/datasets/danielgrijalvas/movies
+
+### 1. Data Cleaning
+First, I cleaned the data by examining missing data, changing formats, removing duplicates, and creating a new 'year' column that correctly reflects the movie release date.
+
+### 2. Finding correlations between data
+- I found correlations using different methods such as 'pearson', 'spearman' – Rank correlation, 'kendall' – Pairwise rank correlation
+- I converted text columns to unique numerical identifiers for each column to include in the correlation matrix using loops in Python, converting categorical labels to corresponding numerical codes (integers).
+- I visualized the correlations using heatmap, scatter, and regplot charts to examine the correlation between movie revenue and other factors that influence movie success.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
